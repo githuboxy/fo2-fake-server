@@ -12,3 +12,10 @@ Step-2 : cd fo2-fake-server
 Step-3 : npm install
 Step-4 : npm start
 ```
+
+
+```
+db.js .        ... Add new method in this file for adding mock json
+index.js       ... Add new method for API
+validations.js ... API specific validation
+```
