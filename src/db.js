@@ -5,6 +5,7 @@ module.exports = function() {
   var data = {
     categories: [],
     posts: [],
+    users :[],
   };
 
   // Create categories
@@ -24,6 +25,14 @@ module.exports = function() {
       body: faker.lorem.lines()
     });
   }
-
-  return data;
+  
+ //Create posts
+  for (var i = 1; i <= 5; i++) {
+    data.users.push({
+      id: i,
+      firstName:'firstName-'+i, 
+      lastName:'lastname-'+i
+    });
+  }
+   return data;
 }();

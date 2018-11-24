@@ -17,6 +17,7 @@ var user = {
 
 var app = jsonServer.create();
 
+
 app.use(cors());
 app.use(bodyParser.json());
 // app.use(expressJwt({secret: jwtSecret}).unless({path: ['/login']}));
@@ -42,12 +43,17 @@ app.put('/posts/:id', validate(validations.post), function(req, res, next){
   next();
 });
 
+
+app.get('/users', function (req, res) {
+	  res.send(db.users);
+});
+
 app.get('/me', function (req, res) {
   res.send(req.user);
 });
 
 app.use(jsonServer.router(db));
-app.use(jsonServer.defaults());
+//app.use(jsonServer.defaults());
 
 app.listen(8081);
 
