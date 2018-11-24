@@ -13,7 +13,7 @@ Step-3 : npm install
 Step-4 : npm start
 ```
 
-
+**Details of files in src folder and its usage**
 ```
 db.js .        ... Add new method in this file for adding mock json
 index.js       ... Add new method for API
