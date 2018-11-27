@@ -6,6 +6,7 @@ module.exports = function() {
     categories: [],
     posts: [],
     users :[],
+    navlinks : []
   };
 
   // Create categories
@@ -34,5 +35,38 @@ module.exports = function() {
       lastName:'lastname-'+i
     });
   }
+
+  data.navlinks.push({
+                  id: "10000083",
+                  label: "Home",
+                  name: "",
+                  value: "",
+                  flag: "",
+                  image: "HOME",
+                  parentImage: "HOME",
+                  toppanelImage: "HOME",
+                  token: "",
+                  loginId: "",
+                  companyId: "",
+                  action: "",
+                  link: "javascript:doLPHome(\u0026#39;HOME\u0026#39;,\u0026#39;\u0026#39;)",
+                  type: ""
+                 },{
+                  id: "10000084",
+                  label: "Administration",
+                  name: "",
+                  value: "",
+                  flag: "",
+                  image: "Administration",
+                  parentImage: "Administration",
+                  toppanelImage: "Administration",
+                  token: "",
+                  loginId: "",
+                  companyId: "",
+                  action: "",
+                  link: "javascript:doLPHome(\u0026#39;Administration\u0026#39;,\u0026#39;\u0026#39;)",
+                  type: ""
+                 });
+
    return data;
 }();

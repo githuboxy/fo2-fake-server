@@ -48,6 +48,10 @@ app.get('/users', function (req, res) {
 	  res.send(db.users);
 });
 
+app.get('/navlinks', function (req, res) {
+    res.send(db.navlinks);
+});
+
 app.get('/me', function (req, res) {
   res.send(req.user);
 });
