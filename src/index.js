@@ -52,6 +52,10 @@ app.get('/navlinks', function (req, res) {
     res.send(db.navlinks);
 });
 
+app.get('/reportdata', function (req, res) {
+    res.send(db.reportdata);
+});
+
 app.get('/me', function (req, res) {
   res.send(req.user);
 });
