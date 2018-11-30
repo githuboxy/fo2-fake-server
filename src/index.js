@@ -56,6 +56,10 @@ app.get('/reportdata', function (req, res) {
     res.send(db.reportdata);
 });
 
+app.get('/reportdatatable', function (req, res) {
+    res.send(db.reportdatatable);
+});
+
 app.get('/me', function (req, res) {
   res.send(req.user);
 });

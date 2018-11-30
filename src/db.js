@@ -7,7 +7,8 @@ module.exports = function() {
     posts: [],
     users :[],
     navlinks : [],
-    reportdata: []
+    reportdata: [],
+    reportdatatable: []
   };
 
   // Create categories
@@ -2256,6 +2257,585 @@ module.exports = function() {
   "action": "",
   "link": "",
   "type": "button"
+ });
+
+data.reportdatatable.push({
+  "ClientName": "ROOP",
+  "Product": "NY - Time Deposits",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "MaturityDate": "Nov 17, 2018",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Nov 16, 2018",
+  "ReferenceID": "WEB526873170323"
+ }, {
+  "ClientName": "FR Sub",
+  "Product": "MMF - FR",
+  "Amount": "1.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Nov 05, 2018",
+  "ReferenceID": "WEB946782545312"
+ }, {
+  "ClientName": "FR Sub",
+  "Product": "MMF - FR",
+  "Amount": "1,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Nov 01, 2018",
+  "ReferenceID": "WEB116397189272"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "IBA  - UK",
+  "Amount": "5,000.0000",
+  "Currency": "EUR",
+  "Status": "Confirmed (Pending Cash Receipt)",
+  "TradeDate": "Oct 31, 2018",
+  "ReferenceID": "WEB980350677150"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 31, 2018",
+  "ReferenceID": "WEB348435885031"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 31, 2018",
+  "ReferenceID": "WEB157325943887"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 31, 2018",
+  "ReferenceID": "WEB968765304693"
+ }, {
+  "ClientName": "FR Sub",
+  "Product": "MMF - FR",
+  "Amount": "98.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 30, 2018",
+  "ReferenceID": "WEB691809115304"
+ }, {
+  "ClientName": "FR Sub",
+  "Product": "MMF - FR",
+  "Amount": "99.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 30, 2018",
+  "ReferenceID": "WEB481880945786"
+ }, {
+  "ClientName": "Roy Inc.",
+  "Product": "CD - GER",
+  "Amount": "50,000.0000",
+  "Currency": "EUR",
+  "MaturityDate": "Oct 27, 2018",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 26, 2018",
+  "ReferenceID": "WEB850986501593"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "LDN TD",
+  "Amount": "50,000.0000",
+  "Currency": "USD",
+  "MaturityDate": "Oct 29, 2018",
+  "Status": "Waiting for Approval",
+  "TradeDate": "Oct 26, 2018",
+  "ReferenceID": "WEB987282480411"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "IBA  - UK",
+  "Amount": "5,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting for Approval",
+  "TradeDate": "Oct 26, 2018",
+  "ReferenceID": "WEB261250365921"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "CD - UK",
+  "Amount": "5,000,000.0000",
+  "Currency": "AUD",
+  "MaturityDate": "Oct 27, 2018",
+  "Status": "Waiting for Approval",
+  "TradeDate": "Oct 26, 2018",
+  "ReferenceID": "WEB574782920876"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "CD - UK",
+  "Amount": "3,000,000.0000",
+  "Currency": "EUR",
+  "MaturityDate": "Oct 27, 2018",
+  "Status": "Waiting for Approval",
+  "TradeDate": "Oct 26, 2018",
+  "ReferenceID": "WEB851060162920"
+ }, {
+  "ClientName": "FR Sub",
+  "Product": "MMF - FR",
+  "Amount": "11.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB939973676461"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB445250333598"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB520207840279"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB673026695108"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB242047655358"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB641279336124"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB955527912925"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB280923150042"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB488138616707"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB771336298660"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB357799285608"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB765805789492"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB331426667044"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB182061493017"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB865380571638"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB830334777173"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB333688807485"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB938412255196"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB449810704197"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB365089242211"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB951659484784"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB110002534132"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB531122109321"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB961019662150"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB142884511967"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB631588299583"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB336647813395"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB539157857600"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB283535470352"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB555160479575"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB311375457168"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB721544401526"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB510877648364"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB424475924270"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "1,000,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 25, 2018",
+  "ReferenceID": "WEB735718757323"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 24, 2018",
+  "ReferenceID": "WEB733861563628"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 24, 2018",
+  "ReferenceID": "WEB642904150631"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 24, 2018",
+  "ReferenceID": "WEB954770910272"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 24, 2018",
+  "ReferenceID": "WEB329963382465"
+ }, {
+  "ClientName": "Roy Inc.",
+  "Product": "CD - GER",
+  "Amount": "100,000.0000",
+  "Currency": "EUR",
+  "MaturityDate": "Oct 25, 2018",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 24, 2018",
+  "ReferenceID": "WEB349368992145"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 24, 2018",
+  "ReferenceID": "WEB947531833895"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "CD - UK",
+  "Amount": "100,000.0000",
+  "Currency": "EUR",
+  "MaturityDate": "Oct 25, 2018",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 24, 2018",
+  "ReferenceID": "WEB250002119961"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "LDN TD",
+  "Amount": "777.0000",
+  "Currency": "USD",
+  "MaturityDate": "Oct 25, 2018",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 24, 2018",
+  "ReferenceID": "WEB991966213061"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "100,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 24, 2018",
+  "ReferenceID": "WEB905156396836"
+ }, {
+  "ClientName": "Roy Inc. US",
+  "Product": "R Domestic Liquidity Fed Fun0",
+  "Amount": "100,000.0000",
+  "Currency": "USD",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 24, 2018",
+  "ReferenceID": "WEB294290536131"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 23, 2018",
+  "ReferenceID": "WEB202278228264"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 23, 2018",
+  "ReferenceID": "WEB655483137015"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 23, 2018",
+  "ReferenceID": "WEB204283699647"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 23, 2018",
+  "ReferenceID": "WEB144895458986"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "CD - UK",
+  "Amount": "1,300,000.0000",
+  "Currency": "AUD",
+  "MaturityDate": "Oct 24, 2018",
+  "Status": "Matured",
+  "TradeDate": "Oct 23, 2018",
+  "ReferenceID": "WEB831904461914"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "IBA  - UK",
+  "Amount": "1,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 23, 2018",
+  "ReferenceID": "WEB259204163915"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 23, 2018",
+  "ReferenceID": "WEB267384614658"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 23, 2018",
+  "ReferenceID": "WEB524387625696"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 23, 2018",
+  "ReferenceID": "WEB533064755917"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 23, 2018",
+  "ReferenceID": "WEB128552219482"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 23, 2018",
+  "ReferenceID": "WEB757185307934"
+ }, {
+  "ClientName": "Roy Inc. UK",
+  "Product": "MMF  -  EUR",
+  "Amount": "1,000,000.0000",
+  "Currency": "EUR",
+  "Status": "Waiting For Ack",
+  "TradeDate": "Oct 17, 2018",
+  "ReferenceID": "WEB326648918552"
  });
    return data;
 }();
